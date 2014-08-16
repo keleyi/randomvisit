@@ -1,0 +1,35 @@
+﻿{
+"name": "randomvisit",
+"title": "randomvisit",
+"description": "A jQuery plugin.The explore will visit a url randomly when you click the randomvisit link .",
+"keywords": [
+"randomvisit",
+"UI",
+"jQuery",
+"ajax"
+],
+ "version": "0.1.0",
+ "author": {
+"name": "KeLeyi",
+"url": "http://keleyi.com"
+},
+"maintainers": [
+{
+"name": "KeLeyi",
+"url": "http://keleyi.com"
+}
+],
+"licenses": [
+{
+"type": "MIT",
+"url": "https://github.com/keleyi/randomvisit/blob/master/LICENSE"
+}
+],
+"homepage": "http://keleyi.com/",
+"docs": "https://github.com/keleyi/randomvisit",
+"download": "https://github.com/keleyi/randomvisit",
+"demo": "http://keleyi.com/jq/randomvisit/",
+"dependencies": {
+"jquery": ">=1.9"
+}
+}

@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>randomvisit</title>
+    <script type="text/javascript" src="http://keleyi.com/keleyi/pmedia/jquery/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.randomvisit.js"></script>
+</head>
+<body>
+    <h2 style="width: 300px; margin: 10px auto;">
+        randomvisit</h2>
+    <div>点击这个图片链接，将随机打开页面。<br />The explore will visit a url randomly when you click the picture.<br />
+        <a href="javascript:void();" id="randomvisit_keleyi_com" title="随机访问"><img src="images/randomvisit.png" style="border:0px" alt="randomvist" /></a>
+    </div>
+     <div>RandomVisit is a jQuery plugin.</div>
+    <script type="text/javascript">
+        var myurls = new Array();
+        myurls[0] = 'http://keleyi.com/jq/myslider/';
+        myurls[1] = 'http://keleyi.com/jq/zonemenu/';
+        myurls[2] = 'http://keleyi.com/keleyi/';
+        myurls[3] = 'http://keleyi.com/map/';
+        var mypages = new Array();
+        mypages[0] = "/randompages/index.htm";
+        mypages[1] = '/randompages/1.htm';
+        $("#randomvisit_keleyi_com").randomvisit({ "urls": myurls, "ajaxpages": mypages });
+    </script>
+</body>
+</html>
